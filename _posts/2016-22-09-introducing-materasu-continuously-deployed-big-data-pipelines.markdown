@@ -11,7 +11,7 @@ A couple of weeks ago we presented Amaterasu at the Hadoop Summit in Melbourne. 
 
 Amaterasu was created to deal with some of the critical pains in deploying Big Data pipelines.
 
-ver the last few years, we’ve experienced the growth and maturity of the industry, especially the way applications are continuously deployed to production environments.  The DevOps movement has changed the industry fundamentally, transforming both the mechanics of the development process, as well as the way we collaborate between development and operation teams.  This has broken down silos by creating autonomous teams who can now cater to the system’s needs at every stage of the lifecycle.
+Over the last few years, we’ve experienced the growth and maturity of the industry, especially the way applications are continuously deployed to production environments.  The DevOps movement has changed the industry fundamentally, transforming both the mechanics of the development process, as well as the way we collaborate between development and operation teams.  This has broken down silos by creating autonomous teams who can now cater to the system’s needs at every stage of the lifecycle.
 
 However, as software developers, when we tried to implement the same techniques and release culture in Big Data environments, we consistently encountered difficulties both technical and cultural.
 
