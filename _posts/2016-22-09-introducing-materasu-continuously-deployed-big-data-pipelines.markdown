@@ -39,7 +39,7 @@ To build such a tool we had to deal with some of the operational complexities of
 
 We also had to tackle the gaps in the tools which exist in the big data ecosystem, specifically we were missing tools for:
 
- - Packaging and deploying complex pipelines.ckaging and deploying complex pipelines.
+ - Packaging and deploying complex pipelines. 
  - Testing the integration points between different components in our pipelines.
  - Configuration management tools that can be easily integrated with our environments.
  - Simple integration with CI tools such as Jenkins, etc.
