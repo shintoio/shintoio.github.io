@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shinto - Big Data Deployments Made Fun</title>
+    <title>Big Data Deployments Made Fun</title>
     <description>We are creating open source tools to bring DevOps capabilties to Big Data deployments.
 </description>
-    <link>http://shintoio.github.io/</link>
-    <atom:link href="http://shintoio.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Sep 2016 16:41:43 +1000</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 16:41:43 +1000</lastBuildDate>
+    <link>https://shintoio.github.io/</link>
+    <atom:link href="https://shintoio.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 25 Sep 2016 00:11:36 +1000</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 00:11:36 +1000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -18,7 +18,7 @@
 
 &lt;p&gt;Amaterasu was created to deal with some of the critical pains in deploying Big Data pipelines.&lt;/p&gt;
 
-&lt;p&gt;ver the last few years, we’ve experienced the growth and maturity of the industry, especially the way applications are continuously deployed to production environments.  The DevOps movement has changed the industry fundamentally, transforming both the mechanics of the development process, as well as the way we collaborate between development and operation teams.  This has broken down silos by creating autonomous teams who can now cater to the system’s needs at every stage of the lifecycle.&lt;/p&gt;
+&lt;p&gt;Over the last few years, we’ve experienced the growth and maturity of the industry, especially the way applications are continuously deployed to production environments.  The DevOps movement has changed the industry fundamentally, transforming both the mechanics of the development process, as well as the way we collaborate between development and operation teams.  This has broken down silos by creating autonomous teams who can now cater to the system’s needs at every stage of the lifecycle.&lt;/p&gt;
 
 &lt;p&gt;However, as software developers, when we tried to implement the same techniques and release culture in Big Data environments, we consistently encountered difficulties both technical and cultural.&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 
 &lt;p&gt;If we take a  closer look at the way those three roles currently integrate today it will look like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://shintoio.github.io/images/DataOps.png&quot; alt=&quot;DataOps&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shintoio.github.io/images/DataOps.png&quot; alt=&quot;DataOps&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see from the diagram above, integrating the three worlds is very demanding, and in some cases, might even destroy the entire universe! And whilst this might be accepted in traditional enterprise environments, if you are actually trying to deliver something, destroying the universe will just not do.&lt;/p&gt;
 
@@ -49,7 +49,7 @@
 &lt;p&gt;We also had to tackle the gaps in the tools which exist in the big data ecosystem, specifically we were missing tools for:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Packaging and deploying complex pipelines.ckaging and deploying complex pipelines.&lt;/li&gt;
+  &lt;li&gt;Packaging and deploying complex pipelines.&lt;/li&gt;
   &lt;li&gt;Testing the integration points between different components in our pipelines.&lt;/li&gt;
   &lt;li&gt;Configuration management tools that can be easily integrated with our environments.&lt;/li&gt;
   &lt;li&gt;Simple integration with CI tools such as Jenkins, etc.&lt;/li&gt;
@@ -228,7 +228,7 @@ tar zxvf  amaterasu.tgz&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;After you execute the job you should see the report printed out as shown in the below screenshot:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://shintoio.github.io/images/amaterasu.jpg&quot; alt=&quot;An Amaterasu jobs output&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shintoio.github.io/images/amaterasu.jpg&quot; alt=&quot;An Amaterasu jobs output&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;some-more-advanced-stuff&quot;&gt;Some More Advanced Stuff&lt;/h2&gt;
 
@@ -264,11 +264,11 @@ tar zxvf  amaterasu.tgz&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;And now, we can commit our code, push it to our repo and run our job again. This time your execution report should look more like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://shintoio.github.io/images/amaterasu-error.jpg&quot; alt=&quot;An Amaterasu jobs error-handling output&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shintoio.github.io/images/amaterasu-error.jpg&quot; alt=&quot;An Amaterasu jobs error-handling output&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In addition, you should also receive a message to your slack channel reminding you the wise words of DevOps Borat:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://shintoio.github.io/images/slack.jpg&quot; alt=&quot;An Amaterasu jobs error-handling output&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://shintoio.github.io/images/slack.jpg&quot; alt=&quot;An Amaterasu jobs error-handling output&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;version-020-and-beyond&quot;&gt;Version 0.2.0 and Beyond&lt;/h2&gt;
 
@@ -289,8 +289,8 @@ tar zxvf  amaterasu.tgz&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
         <pubDate>Thu, 22 Sep 2016 15:00:06 +1000</pubDate>
-        <link>http://shintoio.github.io/amaterasu/bigdata/devops/2016/09/22/introducing-materasu-continuously-deployed-big-data-pipelines.html</link>
-        <guid isPermaLink="true">http://shintoio.github.io/amaterasu/bigdata/devops/2016/09/22/introducing-materasu-continuously-deployed-big-data-pipelines.html</guid>
+        <link>https://shintoio.github.io/amaterasu/bigdata/devops/2016/09/22/introducing-materasu-continuously-deployed-big-data-pipelines.html</link>
+        <guid isPermaLink="true">https://shintoio.github.io/amaterasu/bigdata/devops/2016/09/22/introducing-materasu-continuously-deployed-big-data-pipelines.html</guid>
         
         
         <category>Amaterasu</category>
