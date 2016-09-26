@@ -29,7 +29,7 @@ In the middle of the above diagram, there is a nirvana-like state of collaborati
 
 To address this and achieve this higher state of craftsmanship, we began to look at how DevOps tools such as Chef, Puppet, Ansible etc. improved the collaboration between developers and operations.  The key point we found, was having a simple DSL that can be easily understood by all involved parties (in the area where they need to integrate), that enabled them to collaborate in the delivery process.  In DevOps, this collaboration is mostly around the provisioning of infrastructure. 
 
-Looking back at the Big Data world, we we wanted to apply the same solution to a different problem: the creation of Big Data pipelines by cross-functional teams using multiple frameworks, tools and programming languages. 
+Looking back at the Big Data world, we wanted to apply the same solution to a different problem: the creation of Big Data pipelines by cross-functional teams using multiple frameworks, tools and programming languages. 
 
 To build such a tool we had to deal with some of the operational complexities of the Big Data landscape:
 
