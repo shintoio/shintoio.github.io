@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Big Data Deployments Made Fun</title>
+    <title>Shinto - Big Data Deployments, The Fun Way</title>
     <description>We are creating open source tools to bring DevOps capabilties to Big Data deployments.
 </description>
     <link>https://shintoio.github.io/</link>
     <atom:link href="https://shintoio.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 13:01:49 +1000</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 13:01:49 +1000</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 21:10:16 +1000</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 21:10:16 +1000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -207,7 +207,7 @@ The working directory is where we persist the data between actions. It is import
 
 &lt;p&gt;The code we just covered will be what is executed in most scenarios, so if we ignore for a moment all the fancy error handling we have in place we can execute our job and see how it is executed.&lt;/p&gt;
 
-&lt;p&gt;First, you’ll need a Mesos cluster. Luckily for you, we have a vagrant demo machine you can clone from our github and just run &lt;code&gt;vagrant up&lt;/code&gt; to get a single node Mesos cluster. Once you do that, you can ssh into your mesos cluster (using &lt;code&gt;vagrant ssh&lt;/code&gt; if you are using our demo machine). Next you need to download and extract the Amaterasu preview version by running:&lt;/p&gt;
+&lt;p&gt;First, you’ll need a Mesos cluster. Luckily for you, we have a vagrant demo machine you can clone from our &lt;a href=&quot;https://github.com/shintoio/amaterasu-demo-machine&quot;&gt;github repo&lt;/a&gt; and just run &lt;code&gt;vagrant up&lt;/code&gt; to get a single node Mesos cluster. Once you do that, you can ssh into your mesos cluster (using &lt;code&gt;vagrant ssh&lt;/code&gt; if you are using our demo machine). Next you need to download and extract the Amaterasu preview version by running:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;wget https://s3-ap-southeast-2.amazonaws.com/amaterasu/amaterasu.tgz
 tar zxvf  amaterasu.tgz&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
