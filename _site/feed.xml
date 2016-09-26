@@ -6,8 +6,8 @@
 </description>
     <link>https://shintoio.github.io/</link>
     <atom:link href="https://shintoio.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 21:10:16 +1000</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 21:10:16 +1000</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 22:29:32 +1000</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 22:29:32 +1000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -36,7 +36,7 @@
 
 &lt;p&gt;To address this and achieve this higher state of craftsmanship, we began to look at how DevOps tools such as Chef, Puppet, Ansible etc. improved the collaboration between developers and operations.  The key point we found, was having a simple DSL that can be easily understood by all involved parties (in the area where they need to integrate), that enabled them to collaborate in the delivery process.  In DevOps, this collaboration is mostly around the provisioning of infrastructure.&lt;/p&gt;
 
-&lt;p&gt;Looking back at the Big Data world, we we wanted to apply the same solution to a different problem: the creation of Big Data pipelines by cross-functional teams using multiple frameworks, tools and programming languages.&lt;/p&gt;
+&lt;p&gt;Looking back at the Big Data world, we wanted to apply the same solution to a different problem: the creation of Big Data pipelines by cross-functional teams using multiple frameworks, tools and programming languages.&lt;/p&gt;
 
 &lt;p&gt;To build such a tool we had to deal with some of the operational complexities of the Big Data landscape:&lt;/p&gt;
 
