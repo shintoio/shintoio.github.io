@@ -213,7 +213,7 @@ Before you can execute your job you need to commit it into git and push it to a 
 
 The code we just covered will be what is executed in most scenarios, so if we ignore for a moment all the fancy error handling we have in place we can execute our job and see how it is executed.
 
-First, you’ll need a Mesos cluster. Luckily for you, we have a vagrant demo machine you can clone from our github and just run `vagrant up` to get a single node Mesos cluster. Once you do that, you can ssh into your mesos cluster (using `vagrant ssh` if you are using our demo machine). Next you need to download and extract the Amaterasu preview version by running:
+First, you’ll need a Mesos cluster. Luckily for you, we have a vagrant demo machine you can clone from our [github repo][amaterasu-demo-vagrant] and just run `vagrant up` to get a single node Mesos cluster. Once you do that, you can ssh into your mesos cluster (using `vagrant ssh` if you are using our demo machine). Next you need to download and extract the Amaterasu preview version by running:
 
 {% highlight bash %}
 
@@ -310,6 +310,6 @@ As we have mentioned throughout this post, we have heaps of plans for the near a
 The release of version 0.1.0 is the result of many months of work and a proud moment for us. It is the result of many years of learning how Big Data teams work together and while we hope that Amaterasu will play a key role, our main goal is to help create autonomous Big Data teams, and help developers, data scientists, and operations to collaborate, and improve the way we handle data.
  
 [amaterasu-job-sample]: https://github.com/shintoio/amaterasu-job-sample
-[amaterasu-demo-vagrant]: https://github.com/shintoio/amaterasu-demo-vagrant
+[amaterasu-demo-vagrant]: https://github.com/shintoio/amaterasu-demo-machine
 [slack-app]: https://api.slack.com/slack-apps
 [slack-tokens]: https://api.slack.com/docs/oauth-test-tokens
