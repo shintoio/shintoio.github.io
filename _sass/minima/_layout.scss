@@ -34,19 +34,35 @@
 }
 .logo{
     max-width: 20%;
+
+    @media screen and (max-width: 600px){
+        max-width: 90%;
+    }
 }
 .site-nav {
     float: right;
-    line-height: 56px;
-    
+    //line-height: 56px;
+
+    .menu-wrapper{
+        display:none;
+    }
     .menu-icon {
         display: none;
     }
+
     .nav-item{
         display:inline;
+
+        @media screen and (max-width: 600px){
+            float: left;
+            width: 27%;
+            margin-top: 2%;
+            margin-right: 2%;
+        }
     }
     .trigger{
         float:right;
+        margin-top: 2%;
     }
     .page-link {
         color: #fff;
@@ -60,13 +76,18 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        //top: 9px;
+        //right: $spacing-unit / 2;
+        background-color: #080218;
+        //border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 
+        .menu-wrapper{
+            display: inline-block;
+            margin-top: 2%;
+            margin-right: 2%;
+        }
         .menu-icon {
             display: block;
             float: right;
@@ -178,32 +199,36 @@
     }
 }
 
-/**
- * intro
- */
-.intro{
-    width: 100%;
-    background-color: #424242;
-    text-align: center;
-
-    img{
-        max-width: 14%;
-        padding: 50px 15px 0;
-    }
-    p{
-        padding-bottom: 20px;
-        font-size: 1.5em;
-        color: #eae8ef;
-        font-weight: 300;
-        font-stretch: extra-expanded;
-    }
-}
 
 /**
  * Page content
  */
 .page-content {
     padding: $spacing-unit*2 0;
+
+    .intro{
+        width: 100%;
+        background-color: #424242;
+        text-align: center;
+
+        img{
+            max-width: 14%;
+            padding: 50px 15px 0;
+        }
+        p{
+            padding-bottom: 20px;
+            font-size: 1.5em;
+            color: #eae8ef;
+            font-weight: 300;
+            font-stretch: extra-expanded;
+        }
+    }
+    @include media-query($on-palm) {
+        .intro img {
+            max-width: 18%;
+            padding: 30px 15px 0;
+        }
+    }
 }
 
 .page-heading {
