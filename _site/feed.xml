@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shinto - Big Data Deployments, The Fun Way</title>
+    <title>Big Data, The Fun Way</title>
     <description>We are creating open source tools to bring DevOps capabilties to Big Data deployments.
 </description>
     <link>https://shintoio.github.io/</link>
     <atom:link href="https://shintoio.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Sep 2016 22:29:32 +1000</pubDate>
-    <lastBuildDate>Mon, 26 Sep 2016 22:29:32 +1000</lastBuildDate>
+    <pubDate>Tue, 27 Sep 2016 11:37:23 +1000</pubDate>
+    <lastBuildDate>Tue, 27 Sep 2016 11:37:23 +1000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
