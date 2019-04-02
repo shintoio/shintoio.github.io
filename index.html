@@ -1,27 +1,192 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <title>Shinto-site</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  	<script src="jquery.serialize-object.min.js"></script>
+  	<script type="text/javascript" src="site.js"></script> -->
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.2/css/mdb.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="site.css">
+</head>
+	<body>
 
-<div class="home">
-  <section class="intro">
-    <div><img src="{{ site.baseurl }}/images/shinto_logo_trans.png"></div>
-    <p>{{ site.title | escape }}</p>
-  </section>
-<div class="wrapper">
-    <h1 class="page-heading">Posts</h1>
+		<div class="background">
+		<!-- <nav> -->
+			<div class="logo">
+				<a href="">
+					<img src="./assets/shinto_logo.png">
+				</a>
+			</div>
+			<!--Navbar-->
+				<nav class="navbar white mb-4 desktop-hidden">
 
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				  <!-- Navbar brand -->
+				  <!-- <a class="navbar-brand" href="#"></a> -->
 
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
+				  <!-- Collapse button -->
+				  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+				    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+				        class="fa fa-bars fa-1x"></i></span></button>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-</div>
-</div>
+				  <!-- Collapsible content -->
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+				    <!-- Links -->
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">About Shinto<span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Contact Us</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Blog</a>
+				      </li>
+				    </ul>
+				    <!-- Links -->
+
+				  </div>
+				  <!-- Collapsible content -->
+
+				</nav>
+				<!--/.Navbar-->
+				
+				<div class="nav-items mobile-hidden" >
+					<div class="mobile-hidden">
+						<div class="nav-item">
+							<a href="">
+								Blog
+							</a>
+						</div>
+						<div class="nav-item">
+							<a href="">
+								Contact Us
+							</a>
+						</div>
+						<div class="nav-item">	
+							<a href="">
+								About Shinto
+							</a>
+						</div>						
+				</div>
+			</div>
+		<!-- </nav> -->
+			<!-- <img src="./assets/bg.jpg"> -->
+			<div class="statement">
+				<div class="statement-inner">
+					<div class="statement-title">DataOps is on the rise</div>
+					<p class="statement-content">
+						We are creating a native CI/CD solution
+						for Big Data and AI, aimed to cater for the specific needs 
+						of data engineers and data scientists
+					</p>
+				</div>				
+			</div>
+		</div>
+		<div class="gradient-div"></div>
+		<div class="info">
+			<div class="collaborate info-item">
+				<img src="./assets/feather.png">
+				<div class="info-item-title">Collaborate</div>
+				<div class="info-item-content">
+					Use Apache Amaterasu</br> 
+					deployments to allow</br>  
+					collaboration between</br>  
+					data engineers and</br>  
+					data scientists
+				</div>
+			</div>
+			<div class="automate info-item">
+				<img src="./assets/config.png">
+				<div class="info-item-title">Automate</div>
+				<div class="info-item-content">
+					Easily setup a CI/CD</br>  
+					pipeline to deploy data</br>  
+					pipelines on existing or</br> 
+					new environments
+				</div>
+			</div>
+			<div class="validate info-item">
+				<img src="./assets/nodes.png">
+				<div class="info-item-title">Validate</div>
+				<div class="info-item-content">
+					Enable integration</br>  
+					tests and end-to-end</br>  
+					tests on your analytics stack</br>  
+				</div>
+			</div>
+
+			
+		</div>
+		<div class="background-2">
+			<div class="contact-us">
+				<div class="contact-us-title">Join the DataOps movement</div>
+				<div class="contact-sub-title">We are currently selectively accepting clients for our private beta:</div>
+				<div>
+					<form id="contact-form">
+						  <div>
+						    <input type="text" maxlength="50" required id="company_name" name="company_name" placeholder="Company name"/>
+						  </div>
+
+						  <div>
+						    <input type="text" id="contact_name" maxlength="50" required name="contact_name" placeholder="Contact name"/>
+						  </div>
+						  
+						  <div>
+						    <input type="email" id="contact_email" maxlength="50" required name="contact_email" placeholder="Contact Email"/>
+						  </div>
+						  
+						  <div class="tell-us">
+						  	<textarea id="stack_desk" maxlength="1000" name="stack_desk" required rows="4" placeholder="Tell us about your stack">
+						  		
+						  	</textarea>
+						   <!--  <input type="text" id="stack_desk" name="stack_desk" placeholder="Tell us about your stack"/> -->
+						  </div>
+
+						  <div>
+						    <button id="submit-form">SEND</button>
+						  </div>
+
+						</form>
+				</div>
+			</div>
+		</div>
+		<div class="our-story">
+			<div class="our-story-title"><h1>Our Origin Story</h1></div>
+			<div class="our-story-content">
+				We have been working as engineers, architects and consultants on Big Data and ML projects since the early days of Hadoop, and always felt there should be a better way to deliver Big Data and AI software. We have used DevOps and CI/CD in other projects and wanted to use the same techniques in the analytics world, but using traditional tools in Big Data and AI projects was always so complex and time consuming, so we decided it’s time to create a solution that just works
+			</div>
+			<div class="founders">
+				<div class="yaniv-div">
+					<div class="image">
+						<img src="./assets/yaniv.png">
+					</div>
+					<div class="name"><h1>Yaniv Rodenski</h1></div>
+					<div class="title">Co-Founder, CEO</div>
+				</div>
+				<div class="yariv-div">
+					<div class="image">
+						<img src="./assets/yariv.jpg">
+					</div>
+					<div class="name"><h1>Yariv Triffon</h1></div>
+					<div class="title">Co-Founder, VP Engineering</div>
+				</div>
+				<div class="michael-div">
+					<div class="image">
+						<img src="./assets/michael.jpg">
+					</div>
+					<div class="name"><h1>Michael Haberman</h1></div>
+					<div class="title">Co-Founder, Chief Architect</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  	<script src="jquery.serialize-object.min.js"></script>
+  	<script type="text/javascript" src="site.js"></script>
+</html>
