@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <title>Shinto-site</title>
+	<title>Shinto-site</title>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
   	<script src="jquery.serialize-object.min.js"></script>
-  	<script type="text/javascript" src="site.js"></script> -->
+  	<script type="text/javascript" src="site.js"></script>
   	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
   	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.2/css/mdb.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="site.css">
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 	<body>
 
@@ -37,13 +39,13 @@
 				    <!-- Links -->
 				    <ul class="navbar-nav mr-auto">
 				      <li class="nav-item active">
-				        <a class="nav-link" href="#">About Shinto<span class="sr-only">(current)</span></a>
+				        <a class="nav-link" href="#our-story">About Shinto</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Contact Us</a>
+				        <a class="nav-link" href="#contact-us">Contact Us</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Blog</a>
+				        <a class="nav-link" href="#">Blog</a> 
 				      </li>
 				    </ul>
 				    <!-- Links -->
@@ -62,7 +64,7 @@
 							</a>
 						</div>
 						<div class="nav-item">
-							<a href="">
+							<a href="#contact-us">
 								Contact Us
 							</a>
 						</div>
@@ -122,7 +124,7 @@
 			
 		</div>
 		<div class="background-2">
-			<div class="contact-us">
+			<div class="contact-us" id="contact-us">
 				<div class="contact-us-title">Join the DataOps movement</div>
 				<div class="contact-sub-title">We are currently selectively accepting clients for our private beta:</div>
 				<div>
@@ -154,7 +156,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="our-story">
+		<div class="our-story" id="our-story">
 			<div class="our-story-title"><h1>Our Origin Story</h1></div>
 			<div class="our-story-content">
 				We have been working as engineers, architects and consultants on Big Data and ML projects since the early days of Hadoop, and always felt there should be a better way to deliver Big Data and AI software. We have used DevOps and CI/CD in other projects and wanted to use the same techniques in the analytics world, but using traditional tools in Big Data and AI projects was always so complex and time consuming, so we decided it’s time to create a solution that just works
